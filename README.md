@@ -2,7 +2,8 @@
 This is a Portfolio website made using ReactJS, TailwindCSS and getforms.io<br><br>
 <u>Website is divided into following six sections: </u><br><br>
 **NavBar**: A beautiful vertical navbar that looks modern and aesthetic. <br><br>
-![Screenshot 2023-06-28 090706](https://github.com/NirbhayPS/Portfolio-Website/assets/77682208/efba6945-ea84-4555-8bad-0c6a0c1a95c1)
+![image](https://github.com/NirbhayPS/Portfolio-Website/assets/77682208/3376e689-ce40-4bed-9309-b2c015eeefd3)
+
 <br> <br><br>
 
 **Home**: Clicking on this section will redirect you to the top of the webpage. <br><br>
