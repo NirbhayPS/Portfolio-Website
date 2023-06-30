@@ -8,7 +8,7 @@ const ProjectItem = ({img, title}) => {
                 {title}
             </h3>
             <p className="pb-4 pt-2 text-gray-700 text-center">React Js</p>
-            <a href="">
+            <a href="https://github.com/NirbhayPS/weather">
                 <p className="text-center p-3 rounded-id bg-white text-gray-700 font-bold cursor-pointer text-lg">More info</p>
             </a>
         </div>

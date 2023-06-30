@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="text-left bold-text text-lg">Click on the Projects icon to get a detailed view about the project.</div> 
         </p>
         <div className="grid sm:grid-cols-2 gap-12">
-            <ProjectItem img={colorpickerImg} title = 'Color Picker' />
+            <ProjectItem img={colorpickerImg} title = 'Weather' />
             <ProjectItem img={shoppingImg} title = 'Shopping App' />
             <ProjectItem img={todoImg} title = 'todo App' />
         </div>
