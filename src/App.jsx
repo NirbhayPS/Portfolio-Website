@@ -16,7 +16,7 @@ function App() {
       <div
         className="bg-cover"
         style={{
-          backgroundImage: 'url(src/assets/projectbgImg.jpg)',
+          backgroundImage: 'url(src/components/projectbgImg.jpg)',
         }}
       >
         <Projects />
