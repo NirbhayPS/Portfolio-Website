@@ -13,8 +13,15 @@ function App() {
       <Sidenav/>
       <Main />
       <Work/>
-      <Projects/>
-      <Contact/>
+      <div
+        className="bg-cover"
+        style={{
+          backgroundImage: 'url(src/assets/projectbgImg.jpg)',
+        }}
+      >
+        <Projects />
+      </div>
+    <div className='bg-[#dfdfcf] border-stone-950 border p-8'><Contact/></div>
     </div> 
   )
 }
