@@ -5,7 +5,7 @@ import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/f
 const Main = () => {
   return (
     <div id='Main'>
-      <img className='w-full h-screen object-cover object-left ' src="src/components/portfolio.jpg" alt="" />src\components\portfolio.jpg
+      <img className='w-full h-screen object-cover object-left ' src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="" />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/30">
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
           <h1 className='sm:text-5xl text-4xl font-bold text-gray-800 font-sans'>I'm Nirbhay Pratap Singh</h1>
