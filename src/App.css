@@ -1,0 +1,77 @@
+#light {
+    background-color: #ddf1ec;
+}
+
+#dark {
+    background-color: #27302e;
+}
+
+#light .navmain {
+    background-color: #ffff;
+}
+#dark .navmain {
+    background-color: #819dd7;
+}
+
+#light .contmain {
+    background-color: #c6d9ff;
+}
+#dark .contmain {
+    background-color: #27302e;
+}
+#light .conth{
+    color: black;
+}
+#dark .conth{
+    color: white;
+}
+
+#light .condetmain label {
+    color: black;
+}
+#dark .contdetmain label {
+    color: white;
+}
+
+#light .workmain {
+    color: black;
+}
+#dark .workmain {
+    color: white;
+}
+#light .workheadingmain {
+    color: black;
+}
+#dark .workheadingmain {
+    color: white;
+}
+#light .projectcontmain {
+    color: black;
+}
+#dark .projectcontmain {
+    color: white;
+}
+#light .projectmain {
+    color: black;
+}
+#dark .projectmain {
+    color: white;
+}
+#light .navbutmain {
+    color: black;
+    background-color: white;
+}
+#dark .navbutmain {
+    color: white;
+    background-color: black;
+
+}
+
+.switch {
+    /* position: fixed; */
+    display: flex;
+    width: 10vw;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
