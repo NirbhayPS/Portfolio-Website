@@ -11,17 +11,17 @@ import Contact from './components/Contact'
 export const ThemeContext = createContext(null);
 
 function App() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
     setTheme((curr) => (curr==="light" ? "dark" : "light"));
   };
 
   return (
-    <ThemeContext.Provider value={{theme, toggleTheme}}>
+    <ThemeContext.Provider value={{theme, toggleTheme}}> {/*basically provides theme to all child components */}
     <div className = 'App' id = {theme}>
       <div className='switch'>
-        <ReactSwitch onChange={toggleTheme} checked= {theme ==="dark"}/>
+        <ReactSwitch onChange={toggleTheme} checked= {theme ==="dark"} theme/>
       </div>
       <Sidenav/>
       <Main />

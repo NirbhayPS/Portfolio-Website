@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineArrowUp, AiOutlineBank, AiOutlineMail,AiOutlineFilePdf,AiOutlineGithub } from 'react-icons/ai';
 import {GrProjects } from 'react-icons/gr';
+import ReactSwitch from 'react-switch'
+import { ThemeContext } from '../App';
+
 // import { BsPerson } from "react-icons/bs";
 const Sidenav = () => {
     const [nav, setNav] = useState(false)
     const handleNav = () => {
         setNav(!nav);
     };
+    // const [theme, setTheme] = useState("dark");
+    // const toggleTheme = () => {
+    //     setTheme((curr) => (curr==="light" ? "dark" : "light"));
+    //   };
 
     return (
         <div className="navmain">
@@ -34,6 +41,9 @@ const Sidenav = () => {
                             <AiOutlineMail size={20} />
                             <span className='pl-4'>Contact</span>
                         </a>
+                        {/* <div className='switch'>
+                            <ReactSwitch onChange={toggleTheme} checked= {theme ==="dark"}/>
+                        </div> */}
                     </div>
                 ) : (
                     <div></div>
@@ -57,6 +67,9 @@ const Sidenav = () => {
                     <a href="#contact" className='rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 navbutmain'>
                         <AiOutlineMail className='' size={20} />
                     </a>
+                    {/* <div className='switch'>
+                        <ReactSwitch onChange={toggleTheme} checked= {theme ==="dark"}/>
+                    </div> */}
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 #light {
-    background-color: #ddf1ec;
+    background-color: #caeeca;
 }
 
 #dark {
@@ -17,7 +17,7 @@
     background-color: #c6d9ff;
 }
 #dark .contmain {
-    background-color: #27302e;
+    background-color: #5c5463;
 }
 #light .conth{
     color: black;
@@ -39,6 +39,12 @@
 #dark .workmain {
     color: white;
 }
+#light .workmaincss {
+    background-color: #eee4ca;
+}
+#dark .workmaincss {
+    background-color: #635f54;
+}
 #light .workheadingmain {
     color: black;
 }
@@ -56,6 +62,12 @@
 }
 #dark .projectmain {
     color: white;
+}
+#light .projectmaincss {
+    background-color: #caeeca;
+}
+#dark .projectmaincss {
+    background-color: #27302e;
 }
 #light .navbutmain {
     color: black;
