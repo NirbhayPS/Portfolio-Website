@@ -21,7 +21,7 @@ function App() {
     <ThemeContext.Provider value={{theme, toggleTheme}}> {/*basically provides theme to all child components */}
     <div className = 'App' id = {theme}>
       <div className='switch'>
-        <ReactSwitch onChange={toggleTheme} checked= {theme ==="dark"} theme/>
+        <ReactSwitch onChange={toggleTheme} checked= {theme ==="dark"}/> <p className='text'>{theme} mode</p> <p className='myname'>Made with ❣️ from Nirbhay</p>
       </div>
       <Sidenav/>
       <Main />

@@ -78,12 +78,34 @@
     background-color: black;
 
 }
+#light .text {
+    color: black;
+}
+#dark .text {
+    color: white;
+}
+#light .myname {
+    text-align: right;
+        float: right;
+        clear: none;
+        width: 50%;
+    color: black;
+}
+#dark .myname {
+    text-align: right;
+        float: right;
+        clear: none;
+        width: 50%;
+    color: white;
+}
 
 .switch {
-    /* position: fixed; */
+    position: relative;
+    top: 10px;
+    left: 20px;
     display: flex;
-    width: 10vw;
+    /* width: 10vw; */
     height: 50px;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
