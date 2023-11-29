@@ -27,7 +27,7 @@ const Contact = () => {
                         <label className="font-bold mt-1 p-1 py-3">Message</label>
                         <textarea className="border-2 rounded-lg p-3 flex border-gray-300" rows="10" name ="message"></textarea>
                     </div>
-                    <button className="bg-[#475753] text-gray-100 mt-4 w-full p-4 rounded-lg">
+                    <button className="bg-[#ffd6d6] text-gray-100 mt-4 w-full p-4 rounded-lg sendbutcss">
                         Send Message
                     </button>
 
