@@ -1,9 +1,9 @@
 #light {
-    background-color: #caeeca;
+    background-color: #fffbf2;
 }
 
 #dark {
-    background-color: #27302e;
+    background-color: #312f29;
 }
 
 #light .navmain {
@@ -17,7 +17,7 @@
     background-color: #c6d9ff;
 }
 #dark .contmain {
-    background-color: #5c5463;
+    background-color: #324e6a;
 }
 #light .conth{
     color: black;
@@ -28,6 +28,14 @@
 
 #light .condetmain label {
     color: black;
+}
+#light .sendbutcss{
+    background-color: #324e6a;
+    color: #c6d9ff;
+}
+#dark .sendbutcss{
+    background-color: #c6d9ff;
+    color: #324e6a;
 }
 #dark .contdetmain label {
     color: white;
