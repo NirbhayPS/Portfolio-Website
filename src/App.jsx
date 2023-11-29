@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { createContext } from 'react'
 import ReactSwitch from 'react-switch'
 import "./App.css"
+import Certicate from './components/Certificate.jsx'
 import Sidenav from './components/Sidenav.jsx'
 import Main from './components/Main'
 import Work from './components/Work'
@@ -26,6 +27,7 @@ function App() {
       <Sidenav/>
       <Main />
       <Work/>
+      <Certicate/>
       {/* <div
         className="bg-cover"
         style={{

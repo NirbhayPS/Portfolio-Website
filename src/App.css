@@ -58,7 +58,7 @@
     color: white;
 }
 #light .projectmain {
-    color: black;
+    color: rgb(52, 74, 64);
 }
 #dark .projectmain {
     color: white;
@@ -68,6 +68,19 @@
 }
 #dark .projectmaincss {
     background-color: #27302e;
+}
+
+#light .certificatemain {
+    color: rgb(55, 41, 41);
+}
+#dark .certificatemain {
+    color: rgb(255, 239, 239);
+}
+#light .certificatemaincss {
+    background-color: #eecaca;
+}
+#dark .certificatemaincss {
+    background-color: #302727;
 }
 #light .navbutmain {
     color: black;
