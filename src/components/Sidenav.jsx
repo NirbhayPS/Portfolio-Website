@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { AiOutlineMenu, AiOutlineArrowUp, AiOutlineBank, AiOutlineMail,AiOutlineFilePdf,AiOutlineGithub } from 'react-icons/ai';
-import {GrProjects } from 'react-icons/gr';
+import { AiOutlineMenu, AiOutlineArrowUp, AiOutlineBank, AiOutlineMail, AiOutlineFilePdf, AiOutlineGithub } from 'react-icons/ai';
+import { GrProjects } from 'react-icons/gr';
 import ReactSwitch from 'react-switch'
 import { ThemeContext } from '../App';
 
@@ -33,7 +33,7 @@ const Sidenav = () => {
                             <AiOutlineGithub size={20} />
                             <span className='pl-4'>Projects</span>
                         </a>
-                        <a href="https://drive.google.com/file/d/1TV46fU6XgN5LfxsOF-ZCCy-7bnCx_CN7/view?usp=sharingk" className='w-[75%] flex justify-center items-center rounded-full  shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'  target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1TV46fU6XgN5LfxsOF-ZCCy-7bnCx_CN7/view?usp=sharing" className='w-[75%] flex justify-center items-center rounded-full  shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200' target="_blank" rel="noopener noreferrer">
                             <AiOutlineFilePdf size={20} />
                             <span className='pl-4'>Resume</span>
                         </a>
@@ -61,7 +61,7 @@ const Sidenav = () => {
                     <a href="#projects" className='rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 navbutmain'>
                         <AiOutlineGithub className='' size={20} />
                     </a>
-                    <a href="https://drive.google.com/file/d/1TV46fU6XgN5LfxsOF-ZCCy-7bnCx_CN7/view?usp=sharing" className='rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 navbutmain'>
+                    <a href="https://drive.google.com/file/d/1TV46fU6XgN5LfxsOF-ZCCy-7bnCx_CN7/view?usp=sharing" className='rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 navbutmain' target='_blank'>
                         <AiOutlineFilePdf className='' size={20} />
                     </a>
                     <a href="#contact" className='rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 navbutmain'>
